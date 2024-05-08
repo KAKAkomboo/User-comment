@@ -1,0 +1,144 @@
+*{
+
+}
+body {
+    background-color: rgb(11, 20, 35);
+}
+.main {
+    width: 800px;
+    height: 320px;
+    background-color: rgb(11, 20, 35);
+    border: 2px solid rgb(27, 85, 172);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.left-block {
+    height: 290px;
+    width: 80px;
+    float: left;
+    padding: 10px 0px 0px 20px;
+    margin-top: 20px;
+}
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    margin-left: -12%;
+    border-radius: 20px;
+}
+
+.left-block > .text{
+    margin-left: 10px;
+}
+
+.sub {
+    display: flex;
+    margin: 0px -10px;
+}
+
+.player{
+    margin: 0px 2px;
+    left: -50px;
+}
+
+.right-block {
+    height: 300px;
+    width: 700px;
+    float: right;
+    margin-top: 20px;
+}
+
+.top-block {
+    width: 700px;
+    height: 50px;
+}
+
+.content {
+    width: 680px;
+    height: 140px;
+    padding: 10px;
+}
+
+.main-text {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    color: rgb(81, 100, 123);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.link{
+    width: 690px;
+    height: 20px;
+    padding: 5px;
+}
+
+.reaction {
+    width: 692px;
+    height: 42px;
+    padding: 18px 0px 0px 8px;
+    display: flex;
+}
+
+.like {
+    width: 40px;
+    height: 20px;
+    padding: 5px 10px 5px 20px;
+    background-color: rgb(16, 32, 53);
+    border-radius: 10px;
+    margin: -5px 10px 0px 0px;
+}
+.like > .main-text{
+    margin-left: 2px;
+}
+
+.reply > .main-text{
+    background-color: rgb(16, 32, 53);
+    border-radius: 10px;
+    width: 40px;
+    height: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.name-block {
+    width: 300px;
+    height: 40px;
+    padding: 10px 0px 0px 10px;
+    float: left;
+    display: grid;
+}
+
+.rating {
+    width: 390px;
+    height: 35px;
+    float: right;
+    padding: 15px 0px 0px 0px;
+}
+.best-answer{
+    float: left;
+}
+.awards {
+    float: right;
+    margin: -13px 20px 0px 0px;
+
+}
+
+.best-answer > .main-text{
+    background-color: rgb(27, 85, 172);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link-under-content {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
